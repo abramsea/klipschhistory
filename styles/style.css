@@ -1,0 +1,13 @@
+@import url('../vendor/fonts/fonts.css');
+@import url('../blocks/base.css');
+
+@import url('../blocks/header.css');
+@import url('../blocks/intro.css');
+@import url('../blocks/phrase.css');
+@import url('../blocks/story.css');
+@import url('../blocks/card.css');
+
+
+@import url('../blocks/back-to-top.css');
+@import url('../blocks/footer.css');
+

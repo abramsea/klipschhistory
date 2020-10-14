@@ -1,0 +1,49 @@
+.story {
+    background: #0e0e0e;
+    padding: 0 144px;
+    color: #fff;
+}
+
+.story_theme_cars {
+    background: url('../images/bg2.jpg') no-repeat;
+    background-position: 0px 0px;
+    background-size: contain;
+}
+
+.story_theme_copybook {
+    background: url('../images/bg2-2.jpg') no-repeat;
+    background-position: 0px 0px;
+    background-size: contain;
+}
+
+.story__content-intro {
+    max-width: 480px;
+    padding: 64px 0;
+}
+
+.story__title {
+    font-size: 24px;
+    font-weight: 600;
+    margin: 0 0 12px 0;
+}
+
+.story__text {
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.story__img {
+    max-width: 580px;
+    align-self: center;
+}
+
+.story__img_type_left {
+    max-width: 374px;
+    margin: 0 40px 0 0;
+}
+
+.story__content-main {
+    display: flex;
+    background: #0e0e0e;
+    padding: 40px 0;
+}

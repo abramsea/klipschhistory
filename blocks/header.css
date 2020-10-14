@@ -1,0 +1,20 @@
+.header {
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #000;
+}
+
+.header__logo {
+    text-decoration: none;
+    line-height: 0;
+}
+
+.header__logo-img {
+    width: 80px;
+}
+
+.header__logo-img_lg {
+    width: 160px;
+}

@@ -1,0 +1,29 @@
+.back-to-top {
+    position: fixed;
+    display: none;
+    right: 100px;
+    bottom: 100px;
+    font-size: 50px;
+    color: #ae663a;
+    opacity: .3;
+    transition: ease-in-out .3s;
+}
+
+.back-to-top:hover {
+    opacity: .8;
+}
+
+@media screen and (max-width: 1366px) {
+    .back-to-top {
+        right: 50px;
+        bottom: 50px;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .back-to-top {
+        right: 50px;
+        bottom: 50px;
+        font-size: 40px;
+    }
+}
