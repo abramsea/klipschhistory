@@ -1,0 +1,52 @@
+.assort {
+    padding: 0 40px;
+    max-width: 1280px;
+    margin: -60px auto 0 auto;
+}
+
+.assort__grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.assort__card {
+    width: 300px;
+    height: 300px;
+    position: relative;
+}
+
+.assort__img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    max-width: 100%;
+    z-index: 900;
+}
+
+.assort__title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    margin: 0 auto;
+    z-index: 1000;
+    text-align: center;
+}
+
+.assort__darken {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    background: rgba(0,0,0,.6);
+    z-index: 950;
+}
+
+.assort__card:hover .assort__darken {
+    display: none;
+}
+
+.assort__card:hover .assort__title {
+    text-shadow: 2px 2px 2px #000;
+}
