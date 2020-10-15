@@ -1,0 +1,10 @@
+.dates {
+    padding: 40px 0;
+    background: url('../images/bg3.png');
+    background-size: cover;
+}
+
+.dates__dates {
+    display: flex;
+    flex-direction: column;
+}

@@ -25,14 +25,6 @@
     max-width: 580px;
 }
 
-
-
-.card__text {
-    font-family: "FuturaPT", Arial, Helvetica, sans-serif;
-    font-size: 18px;
-    color: #fff;
-}
-
 .card__image {
     max-width: 100%;
     align-self: center;

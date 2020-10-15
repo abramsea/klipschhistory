@@ -17,7 +17,7 @@ body {
 }
 
 .wrapper {
-    padding: 0 40px;
+    padding: 0 144px;
     max-width: 1280px;
     margin: 0 auto;
 }
@@ -38,12 +38,20 @@ body {
     color: #fff;
 }
 
+.text {
+    font-size: 18px;
+    font-weight: 300;
+    font-family: "FuturaPT", Arial, Helvetica, sans-serif;
+    color: #fff;
+}
+
+
 
 .orange-title {
     font-family: "Interstate", Arial, Helvetica, sans-serif;
     text-transform: uppercase;
     font-size: 48px;
-    color: #0e0e0e;
+    color: transparent;
     text-shadow: 0 0 2px #ae663a;
     margin: 0 0 12px 0;
 }

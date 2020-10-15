@@ -3,7 +3,7 @@
     color: #fff;
 }
 
-.story__intro-wrapper {
+.story__intro-wrapper .wrapper {
     padding: 0 144px;
 }
 
@@ -24,12 +24,6 @@
     padding: 64px 0;
 }
 
-
-
-.story__text {
-    font-size: 18px;
-    font-weight: 300;
-}
 
 .story__img {
     max-width: 580px;

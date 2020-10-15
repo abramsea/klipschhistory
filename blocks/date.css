@@ -1,0 +1,18 @@
+.date {
+    max-width: 480px;
+    padding: 40px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.date_left {
+    align-self: flex-start;
+}
+
+.date_center {  
+    align-self: center;
+}
+
+.date_right {
+    align-self: flex-end;
+}
