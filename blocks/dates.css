@@ -2,7 +2,7 @@
     padding: 40px 0;
     background: url('../images/bg3.png');
     background-size: cover;
-    background-position: center;
+    background-position: 0px 0px;
 }
 
 .dates__dates {
@@ -14,4 +14,10 @@
     background: url('../images/bg4.jpg');
     background-size: cover;
     background-position: center;
+}
+
+@media screen and (max-width: 1300px) {
+    .dates {
+        background-size: contain;
+    }
 }
