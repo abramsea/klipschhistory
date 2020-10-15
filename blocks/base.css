@@ -12,6 +12,11 @@ body {
 }
 
 .main {
+    /* max-width: 1280px; */
+    margin: 0 auto;
+}
+
+.wrapper {
     padding: 0 40px;
     max-width: 1280px;
     margin: 0 auto;
@@ -26,18 +31,43 @@ body {
     font-weight: 600;
 }
 
+.title {
+    font-size: 24px;
+    font-weight: 600;
+    margin: 0 0 12px 0;
+    color: #fff;
+}
+
+
+.orange-title {
+    font-family: "Interstate", Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-size: 48px;
+    color: #0e0e0e;
+    text-shadow: 0 0 2px #ae663a;
+    margin: 0 0 12px 0;
+}
+
+@supports (-webkit-text-stroke: .002em #ae663a) {
+    .orange-title {
+        -webkit-text-stroke: .002em #ae663a;
+        text-shadow: none;
+    }
+}
+
+
 @media screen and (max-width: 1279px) {
     .video {
         height: 280px;
     }
 
-    .main {
+    .wrapper { 
         padding: 0 24px;
     }
 }
 
 @media screen and (max-width: 767px) {
-    .main {
+    .wrapper { 
         padding: 0 16px;
     }
 }

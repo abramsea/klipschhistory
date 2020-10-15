@@ -2,7 +2,8 @@
     background: #0e0e0e;
     height: 74px;
     width: 100%;
-
+    max-width: 1280px;
+    margin: 0 auto;
 }
 
 .phrase_theme_red {
@@ -13,6 +14,12 @@
 
 .phrase_theme_transparent {
     background: url('../images/bghear.svg') no-repeat;
+    background-position: 0px 0px;
+    background-size: contain;
+}
+
+.phrase_theme_orange {
+    background: url('../images/bghearorange.svg') no-repeat;
     background-position: 0px 0px;
     background-size: contain;
 }
