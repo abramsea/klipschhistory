@@ -1,13 +1,16 @@
 .assort {
     padding: 0 40px;
     max-width: 1280px;
-    margin: -60px auto 0 auto;
+    margin: -52px auto 0 auto;
 }
 
 .assort__grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
+    margin: 32px 0 0 0;
+    justify-content: center;
+
 }
 
 .assort__card {
@@ -49,4 +52,59 @@
 
 .assort__card:hover .assort__title {
     text-shadow: 2px 2px 2px #000;
+}
+
+@media screen and (max-width: 1279px) {
+    .assort {
+        padding: 0 16px;
+        margin: -32px auto 0 auto;
+    }
+    .assort__grid {
+        grid-template-columns: 300px 300px 300px;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+
+    .assort__grid {
+        grid-template-columns: 245px 245px 245px;
+    }
+
+    .assort__card {
+        width: 245px;
+        height: 245px;
+    }
+
+    .assort__darken {
+        width: 245px;
+        height: 245px;
+    }
+}
+
+
+@media screen and (max-width: 767px) {
+    .assort__grid {
+        grid-template-columns: 245px 245px;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    
+    .assort {
+        margin: 0 auto;
+    }
+    .assort__grid {
+        grid-template-columns: 280px;
+    }
+
+    .assort__card {
+        width: 280px;
+        height: 280px;
+    }
+
+    .assort__darken {
+        width: 280px;
+        height: 280px;
+    }
 }

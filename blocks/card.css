@@ -28,8 +28,40 @@
 .card__image {
     max-width: 100%;
     align-self: center;
+    margin: 0 0 20px 0;
 }
 
 .card__right .card__text {
     margin: 20px 0 0 0;
+}
+
+
+@media screen and (max-width: 1279px) {
+    .card__left {
+        max-width: 48%;
+        margin: 0 20px 0 0;
+    }
+    
+    .card__right {
+        max-width: 48%;
+    }
+}
+
+
+@media screen and (max-width: 767px) {
+    .card {
+        flex-direction: column;
+    }
+
+    .card__left {
+        max-width: 100%;
+    }
+    
+    .card__right {
+        max-width: 100%;
+    }
+
+    .card__image {
+        margin: 20px 0;
+    }
 }

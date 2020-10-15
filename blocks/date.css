@@ -16,3 +16,25 @@
 .date_right {
     align-self: flex-end;
 }
+
+@media screen and (max-width: 1279px) {
+    .date {
+        max-width: 352px;
+    }
+}
+
+
+@media screen and (max-width: 500px) {
+    .date {
+        padding: 20px 0;
+        max-width: 100%;
+    }
+
+    .date_center {  
+        align-self: flex-start;
+    }
+    
+    .date_right {
+        align-self: flex-start;
+    }
+}

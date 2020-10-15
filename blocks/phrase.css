@@ -23,3 +23,18 @@
     background-position: 0px 0px;
     background-size: contain;
 }
+
+
+@media screen and (max-width: 1279px) {
+    .phrase {
+        height: 44px;
+        background-position: center;
+    }
+}
+
+
+@media screen and (max-width: 500px) {
+    .phrase {
+        height: 20px;
+    }
+}

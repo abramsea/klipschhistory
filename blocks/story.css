@@ -9,13 +9,13 @@
 
 .story_theme_cars .story__intro-wrapper {
     background: url('../images/bg2.jpg') no-repeat;
-    background-position: 0px 0px;
+    background-position: center;
     background-size: cover;
 }
 
 .story_theme_copybook .story__intro-wrapper {
     background: url('../images/bg2-2.jpg') no-repeat;
-    background-position: 0px 0px;
+    background-position: center;
     background-size: cover;
 }
 
@@ -40,4 +40,35 @@
     justify-content: center;
     background: #0e0e0e;
     padding: 40px 0;
+}
+
+
+
+
+@media screen and (max-width: 1279px) {
+    .story__intro-wrapper .wrapper {
+        padding: 0 16px;
+    }
+
+    .story__img_type_left {
+        max-width: 225px;
+        margin: 0 32px 0 0;
+    }
+}
+
+
+@media screen and (max-width: 767px) {
+    .story__content-intro {
+        padding: 32px 0;
+    }
+
+    .story__content-main {
+        flex-direction: column;
+        padding: 20px 0;
+    }
+
+    .story__img_type_left {
+        max-width: 100%;
+        margin: 0 0 20px 0;
+    }
 }

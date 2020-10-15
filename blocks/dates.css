@@ -2,6 +2,7 @@
     padding: 40px 0;
     background: url('../images/bg3.png');
     background-size: cover;
+    background-position: center;
 }
 
 .dates__dates {
@@ -12,4 +13,5 @@
 .dates_today {
     background: url('../images/bg4.jpg');
     background-size: cover;
+    background-position: center;
 }

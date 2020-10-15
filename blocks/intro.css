@@ -7,11 +7,28 @@
 
 .intro__text-box {
     background: rgba(0,0,0,.7);
-    padding: 40px 0 40px 144px;
+    padding: 40px 16px 40px 144px;
     max-width: 620px;
 }
 
 .intro__text {
     font-size: 18px;
     font-weight: 300;
+}
+
+@media screen and (max-width: 1279px) {
+    .intro__text-box {
+        padding: 40px 16px 40px 16px;
+    }
+}
+
+
+@media screen and (max-width: 767px) {
+    .intro {
+        padding: 40px 0;
+    }
+    .intro__text-box {
+        padding: 40px 16px;
+        max-width: 100%;
+    }
 }
