@@ -51,10 +51,21 @@ body {
     margin: 0 0 12px 0;
 }
 
+
 @supports (-webkit-text-stroke: .002em #ae663a) {
     .orange-title {
         -webkit-text-stroke: .002em #ae663a;
-        text-shadow: none;
+        color: transparent;
+    }
+}
+
+
+@media only screen and (-Webkit-min-device-pixel-ratio: 1.5),
+only screen and (-moz-min-device-pixel-ratio: 1.5),
+only screen and (-o-min-device-pixel-ratio: 3/2),
+only screen and (min-device-pixel-ratio: 1.5) {
+    .orange-title {
+        -webkit-text-stroke: 1px #ae663a;
         color: transparent;
     }
 }
