@@ -51,6 +51,31 @@ body {
     margin: 0 0 12px 0;
 }
 
+.hidden {
+    opacity: 0;
+    transition: all .4s;
+}
+
+section {
+    position: relative;
+}
+
+.opener, .opener-flex {
+    color: #ae663a;
+    text-decoration: none;
+    font-size: 18px;
+    transition: all .3s;
+}
+
+.opener:hover, .opener-flex:hover {
+    color: #fff;
+}
+
+.expands {
+    display: none;
+    opacity: 0;
+}
+
 
 @supports (-webkit-text-stroke: .002em #ae663a) {
     .orange-title {

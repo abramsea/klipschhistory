@@ -1,6 +1,6 @@
 .dates {
     padding: 40px 0;
-    background: url('../images/bg3.png');
+    background: url('../images/bg3.png') repeat-y;
     background-size: cover;
     background-position: 0px 0px;
 }
@@ -10,14 +10,12 @@
     flex-direction: column;
 }
 
+.dates__dates.expands {
+    display: none;
+}
+
 .dates_today {
     background: url('../images/bg4.jpg');
     background-size: cover;
     background-position: center;
-}
-
-@media screen and (max-width: 1300px) {
-    .dates {
-        background-size: contain;
-    }
 }
